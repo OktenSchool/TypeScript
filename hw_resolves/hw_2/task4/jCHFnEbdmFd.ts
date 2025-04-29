@@ -16,11 +16,11 @@ let users_task_1_4: User_UZl73pIM[] = [
     {name: 'asdas1', username: 'asd', password: '1234'}
 ];
 
-console.log(users[0]);
-console.log(users[1]);
-console.log(users[2]);
-console.log(users[3]);
-console.log(users[4]);
-console.log(users[5]);
+console.log(users37[0]);
+console.log(users37[1]);
+console.log(users37[2]);
+console.log(users37[3]);
+console.log(users37[4]);
+console.log(users37[5]);
 
 
