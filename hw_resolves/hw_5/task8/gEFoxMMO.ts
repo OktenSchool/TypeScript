@@ -1,10 +1,11 @@
 // #gEFoxMMO
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список (ul li) та виводить його через document.write
 
+// @ts-ignore
 type Primitive = string | number | boolean;
 
-// function primitivesUlCreator(arrayOfPrimitives: string[]|number[] | boolean[]) {
-function primitivesUlCreator(arrayOfPrimitives: Primitive[]) {
+// @ts-ignore
+const primitivesUlCreator = (arrayOfPrimitives: Primitive[]): void => {
 
     document.write(`<ul>`);
     for (const item of arrayOfPrimitives) {

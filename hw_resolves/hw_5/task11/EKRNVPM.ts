@@ -1,7 +1,7 @@
 // #EKRNVPM
 // - створити функцію sum(arr) яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
-
-function sum(arr: number[]): number {
+// @ts-ignore
+const sum = (arr: number[]): number => {
     let basket = 0;
     for (const item of arr) {
         basket = basket + item;

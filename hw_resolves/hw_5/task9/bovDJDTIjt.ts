@@ -1,9 +1,9 @@
 // #bovDJDTIjt
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
-
+// @ts-ignore
 type User49 = { id: number, name: string, age: number }
-
-function arrayDocPrinter(users: User49[]) {
+// @ts-ignore
+const arrayDocPrinter = (users: User49[]): void => {
     for (const user of users) {
         document.write(`<div>${user.id} ${user.name} ${user.age}</div>`);
     }

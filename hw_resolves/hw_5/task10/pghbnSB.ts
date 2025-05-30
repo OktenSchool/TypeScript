@@ -1,7 +1,7 @@
 // #pghbnSB
 // - створити функцію яка повертає найменьше число з масиву
-
-function arrayMinValue(numbers: number[]): number {
+// @ts-ignore
+const arrayMinValue = (numbers: number[]): number => {
     let min = numbers[0];
     for (let i = 1; i < numbers.length; i++) {
         let number = numbers[i];
